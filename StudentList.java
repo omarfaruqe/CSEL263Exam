@@ -91,5 +91,13 @@ public class StudentList {
 			} catch (Exception e){} 
 			System.out.println("Data Loaded.");				
 		}
+		else if(args[0].contains(null))
+		{
+			System.out.println("No argument or wrong argument passed");							
+		}
+		else
+		{
+			System.out.println("No argument or wrong argument passed");							
+		}
 	}
 }
